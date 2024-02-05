@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ================ FONT AWESOME =========================================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--========================== CSS =========================================== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Project Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <!-- ==================== STYLE SWITCHER ===================================== -->
+        <input type="radio" name="color" id="color-1">
+        <input type="radio" name="color" id="color-2">
+        <input type="radio" name="color" id="color-3">
+        <input type="radio" name="color" id="color-4">
+        <input type="radio" name="color" id="color-5">
+        <input type="radio" name="color" id="color-6">
+        <input type="radio" name="color" id="color-7">
+        <input type="radio" name="color" id="color-8">
+        <input type="radio" name="color" id="color-9">
+        <input type="radio" name="color" id="color-10">
+        <input type="checkbox" id="toggler" />
+        <input type="checkbox" id="day-night" />
+
+        <div class="style__switcher"> 
+            <label for="toggler" class="style__switcher-toggler">
+                <i class="fa-solid fa-gear fa-spin"></i>
+            </label>
+
+            <label for="day-night" class="style__switcher-theme">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i>
+            </label>
+
+            <h3 class="style__switcher-title">Theme-Colors</h3>
+
+            <div class="style__switcher-colors">
+                <label for="color-1" class="color-1 color"></label>
+                <label for="color-2" class="color-2 color"></label>
+                <label for="color-3" class="color-3 color"></label>
+                <label for="color-4" class="color-4 color"></label>
+                <label for="color-5" class="color-5 color"></label>
+                <label for="color-6" class="color-6 color"></label>
+                <label for="color-7" class="color-7 color"></label>
+                <label for="color-8" class="color-8 color"></label>
+                <label for="color-9" class="color-9 color"></label>
+                <label for="color-10" class="color-10 color"></label>
+            </div>
+            </div>
+
+        <!-- ============================ HEADER ===================================== -->
+        <header class="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">d_Striver</a>
+
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">Experience</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#works" class="nav__link">Work</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ============================= MAIN ====================================== -->
+        <main class="main">
+
+            <!-- ============================== HOME ===================================== -->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__small">Hello Visitor</span>
+                        <h1 class="home__title">
+                            <span>I'm a</span> 
+                            <span class="animated-text">
+                                <span class="typing-animation"></span>
+                                <span class="bubble"> &#128169;</span>
+                            </span>
+                        </h1>
+        
+                        <p class="home__description">
+                            Hi, I'm Deep Chauhan, a web developer and programmer with a passion for creating innovative
+                            solutions for social problems.
+                            I have a good level of knowledge of C++, Python, GitHub, version control, and other
+                            technologies that enable me to build robust and scalable web applications.
+                            I believe that software development is not only a profession but also a way of making a
+                            positive impact on the world.
+                        </p>
+                        <div class="home__btns">
+                            <a href="#contact" class="btn">Hire Me</a>
+                            <a href="#resume" class="btn--transparent">Resume</a>
+                        </div>
+                    </div>
+                    <div class="home__img-wrapper">
+                        <img src="Deep_Photoone.png" alt="#" class="home__img">
+                    </div>
+                </div>
+            </section>
+        
+
+            <!-- =============================== ABOUT =================================== -->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__img-wrapper">
+                        <img src="my img 01.jpg" alt="" class="about__img">
+                        <img src="my img 01.jpg" alt="" class="about__img">
+                        <img src="my img 01.jpg" alt="" class="about__img">
+                        <img src="my img 01.jpg" alt="" class="about__img">
+                        <img src="my img 01.jpg" alt="" class="about__img">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section__title" data-title="Who am I?">
+                            I'm Deep Chauhan, a Programmer and Web Developer
+                        </h2>
+
+                        <p class="about__description">Hi, I'm Deep Chauhan, a web developer and programmer with a
+                            passion for creating innovative
+                            solutions for social problems.
+                            I have a good level of knowledge of C++, Python, GitHub, version control, and other
+                            technologies that enable me to build robust and scalable web applications.
+                            I'm always eager to learn new skills and explore new challenges.
+                            I believe that software development is not only a profession but also a way of making a
+                            positive impact on the world.
+                        </p>
+
+                        <ul class="about__data grid">
+
+                            <li class="data__item">
+                                <h3 class="data__title">Name:</h3>
+                                <span class="data__description">Deep Chauhan</span>
+                            </li>
+
+                            <li class="data__item">
+                                <h3 class="data__title">Age:</h3>
+                                <span class="data__description">19 Years</span>
+                            </li>
+
+                            <li class="data__item">
+                                <h3 class="data__title">From:</h3>
+                                <span class="data__description">MP, India</span>
+                            </li>
+
+                            <li class="data__item">
+                                <h3 class="data__title">Email:</h3>
+                                <span class="data__description about__link">deepcr13@gmail.com</span>
+                            </li>
+
+                        </ul>
+
+                        <div class="about__bottom">
+                            <a href="Resume-AMIT+KUMAR+RAY+(5) (2) (2) (1)-2.pdf" class="btn">Download CV</a>
+
+                            <div class="about__social-links">
+                                <a href="https://twitter.com/swdeep1302" class="about__social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+
+                                <a href="" class="about__social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                                <a href="" class="about__social-link">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+
+                                <a href="https://www.linkedin.com/in/deep-chauhan-44aab226a" class="about__social-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================================== QUALIFICATION ========================= -->
+            <section class="qualification section" id="qualification">
+                <h2 class="section__title title-center" data-title="My Journey">
+                    Qualification
+                </h2>
+
+                <div class="resume__container container grid">
+                    <div class="resume__group">
+                        <h3 class="reume__heading">Education</h3>
+
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Saraswati S M High School, Karkeli</h3>
+                                    <span class="resume__icon">+</span>
+                                </div>
+
+                                <div class="resume__content">
+                                    <div class="resume__datatitle">
+                                        <h3 class="resume__title">High School</h3>
+                                        <span class="resume__data">2018-2020</span>
+                                    </div>
+
+                                    <p class="resume__discription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Sunt nisi possimus tenetur,
+                                        dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                        
+                                        porro.
+                                        </p>
+                                </div>
+                            </div>
+
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Govt. Model Hr. Sec. School, Karkeli</h3>
+                                    <span class="resume__icon">+</span>
+                                </div>
+
+                                <div class="resume__content">
+                                    <div class="resume__datatitle">
+                                        <h3 class="resume__title">Higher Secondary</h3>
+                                        <span class="resume__data">2020-2022</span>
+                                    </div>
+
+                                    <p class="resume__discription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Sunt nisi possimus tenetur,
+                                        dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                        porro.
+                                        </p>
+                                </div>
+                            </div>
+
+                                <div class="resume__item">
+                                    <div class="resume__header">
+                                        <h3 class="resume__subtitle">Technocrats Institue of Technology, Bhopal</h3>
+                                        <span class="resume__icon">+</span>
+                                    </div>
+    
+                                    <div class="resume__content">
+                                        <div class="resume__datatitle">
+                                            <h3 class="resume__title">Computer Science Engineering</h3>
+                                            <span class="resume__data">2022-Present</span>
+                                        </div>
+    
+                                        <p class="resume__discription">
+                                            Lorem ipsum dolor sit amet consectetur adip isicing elit.
+                                            Sunt nisi possimus tenetur,
+                                            dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                            porro.
+                                            </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume__group">
+                        <h3 class="reume__heading">Coding House</h3>
+
+                        <div class="resume__items">
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Coder Army</h3>
+                                    <span class="resume__icon">+</span>
+
+                                </div>
+
+                                <div class="resume__content">
+                                    <div class="resume__datatitle">
+                                        <h3 class="resume__title">C++ DSA</h3>
+                                        <span class="resume__data">2023-2024</span>
+                                    </div>
+
+                                    <p class="resume__discription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Sunt nisi possimus tenetur,
+                                        dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                        porro.
+                                        </p>
+                                </div>
+                            </div>
+
+                            <div class="resume__item">
+                                <div class="resume__header">
+                                    <h3 class="resume__subtitle">Infosys SpringBird</h3>
+                                    <span class="resume__icon">+</span>
+                                </div>
+
+                                <div class="resume__content">
+                                    <div class="resume__datatitle">
+                                        <h3 class="resume__title">Full Stack Web D</h3>
+                                        <span class="resume__data">2024-2024</span>
+                                    </div>
+
+                                    <p class="resume__discription">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Sunt nisi possimus tenetur,
+                                        dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                        porro.
+                                        </p>
+                                </div>
+                            </div>
+
+                                <div class="resume__item">
+                                    <div class="resume__header">
+                                        <h3 class="resume__subtitle">Udemy</h3>
+                                        <span class="resume__icon">+</span>
+                                    </div>
+    
+                                    <div class="resume__content">
+                                        <div class="resume__datatitle">
+                                            <h3 class="resume__title">python Programming</h3>
+                                            <span class="resume__data">2024-Present</span>
+                                        </div>
+    
+                                        <p class="resume__discription">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Sunt nisi possimus tenetur,
+                                            dicta voluptates saepe iste adipisci deleniti, corporis aut perspiciatis reiciendis labore
+                                            porro.
+                                            </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================================== SERVICES ============================ -->
+            <section class="services" id="services">
+                <h2 class="section__title title-center" data-title="Services">
+                    Provided Services
+                </h2>
+
+                <div class="services__container container grid">
+                    <div class="services__item">
+                        <i class="fa-solid fa-laptop services__icon"></i>
+
+                        <h3 class="service__title">Web Design</h3>
+                        <p class="services__discription">
+                            Service with more than 1 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">01</span>
+                    </div>
+
+                    <div class="services__item">
+                        <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+                        <h3 class="service__title">UI/UX Design</h3>
+                        <p class="services__discription">
+                            Service with more than 2 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">02</span>
+                    </div>
+
+                    <div class="services__item">
+                        <i class="fa-solid fa-image services__icon"></i>
+
+                        <h3 class="service__title">Graphic Design</h3>
+                        <p class="services__discription">
+                            Service with more than 3 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">03</span>
+                    </div>
+                </div>
+                <div class="services__container container grid">
+                    <div class="services__item">
+                        <i class="fa-solid fa-video services__icon"></i>
+
+                        <h3 class="service__title">Video Editing</h3>
+                        <p class="services__discription">
+                            Service with more than 4 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">04</span>
+                    </div>
+
+                    <div class="services__item">
+                        <i class="fa-solid fa-calculator services__icon"></i>
+
+                        <h3 class="service__title">Mathematics</h3>
+                        <p class="services__discription">
+                            Service with more than 5 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">05</span>
+                    </div>
+
+                    <div class="services__item">
+                        <i class="fa-solid fa-chart-area services__icon"></i>
+
+                        <h3 class="service__title">Research & Analysis</h3>
+                        <p class="services__discription">
+                            Service with more than 3 year of experience. Providing quality
+                            work to clients and companies.
+                        </p>
+
+                        <span class="services__no">05</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================================== SKILLS ============================== -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title title-center" data-title="My Proficiency">
+                    Professional Skills
+                </h2>
+
+                <div class="skills__container container grid">
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">HTML</h3>
+                                <span class="skills__no">90%</span>
+                            </div>
+
+                            <p class="skills__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                            Illum, aliquam. Ab, vel numruio.
+                        </p>
+
+                        <div class="skills__bar">
+                            <div class="skills__percentage" style=" width: 90%;">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">CSS</h3>
+                                <span class="skills__no">80%</span>
+                            </div>
+
+                            <p class="skills__description" style=" width: 80%;">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                            Illum, aliquam. Ab, vel numruio.
+                        </p>
+
+                        <div class="skills__bar">
+                            <div class="skills__percentage" style=" width: 80%;">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills__no">70%</span>
+                            </div>
+
+                            <p class="skills__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                            Illum, aliquam. Ab, vel numruio.
+                        </p>
+
+                        <div class="skills__bar">
+                            <div class="skills__percentage" style=" width: 70%;">
+                                <span></span>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="skills__item">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">C++</h3>
+                            <span class="skills__no">80%</span>
+                        </div>
+
+                        <p class="skills__description">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                        Illum, aliquam. Ab, vel numruio.
+                    </p>
+
+                    <div class="skills__bar">
+                        <div class="skills__percentage" style=" width: 80%;">
+                            <span></span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="skills__item">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">Python</h3>
+                                <span class="skills__no">70%</span>
+                            </div>
+    
+                            <p class="skills__description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                            Illum, aliquam. Ab, vel numruio.
+                        </p>
+    
+                        <div class="skills__bar">
+                            <div class="skills__percentage" style=" width: 70%;">
+                                <span></span>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Canva</h3>
+                                    <span class="skills__no">55%</span>
+                                </div>
+        
+                                <p class="skills__description">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit, thwin opeuoej dliuyk.
+                                Illum, aliquam. Ab, vel numruio.
+                            </p>
+        
+                            <div class="skills__bar">
+                                <div class="skills__percentage" style=" width: 55%;">
+                                    <span></span>
+                                </div>
+                            </div>
+                            </div>
+                </div>
+            </section>
+
+            <!-- =================================== PORTFOLIO ========================== -->
+            <section class="works" id="works">
+                <h2 class="section__title title-center" data-title="My Portfolio">
+                    Recent Works
+                </h2>
+
+                <div class="work__container container grid">
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">Web Design</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">Graphic Design</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">Edited Videos</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">UI/UX Design</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">Paintings</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                    <div class="work__card">
+                        <img src="motivationd.png" alt="">
+
+                        <div class="work__details">
+                            <h3 class="work__title">Programming Projects</h3>
+                            <span class="work__description">This is short description</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- ==================================== TESTIMONIALS ====================== -->
+            <section class="testimonials">
+                <h2 class="section__title title-center" data-title="Testamonials">
+                    What People Say About Me
+                </h2>
+
+                <div class="testamonials__container conatainer grid">
+                    
+                    <div class="testamonials__item">
+                        <p class="testamonials__description">
+                            Lorem ipsum dolor sit amet consectetur.
+                            Quo repudiandae consequuntur voluptas, 
+                            obcaecati fuga labore vitae eligendi!
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                        <div class="testamonials__data">
+                            <img src="https://images.thedirect.com/media/article_full/spider-man-ps5s.jpg" alt=""
+                            class="testamonials__img">
+                            <div>
+                            <h3 class="testamonials__name">Spider Man</h3>
+                            <span class="testamonials__identity">USA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testamonials__item">
+                        <p class="testamonials__description">
+                            Lorem ipsum dolor sit amet consectetur.
+                            Quo repudiandae consequuntur voluptas,
+                            obcaecati fuga labore vitae eligendi!
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                        <div class="testamonials__data">
+                            <img src="data:image/jpeg;base64,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" alt=""
+                        class="testamonials__img">
+                            <div>
+                            <h3 class="testamonials__name">Iron Man</h3>
+                            <span class="testamonials__identity">Tonny Industries</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!-- ===================================== CONTACT ========================== -->
+            <section class="contact" id="contact">
+                <h2 class="section__title title-center" data-title="Get in touch">
+                    Contact Me
+                </h2>
+
+                <div class="contact__container container grid">
+                    <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa-solid fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__data">7000776749</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email Me</h3>
+                            <span class="contact__data">deepcr13@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__item">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">Ward no.09, Barghat, Seoni(M.P)</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="#" method="post" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" placeholder="Name" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" placeholder="Email" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="text" placeholder="Subject" class="input__control">
+                        </div>
+
+                        <div class="form__input">
+                            <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="input__control textarea"></textarea>
+                        </div>
+
+                        <button class="btn contact__btn">Contact</button>
+                    </div>
+                </form>
+               </div>
+            </section>
+        </main>
+
+        <!-- ====================================== FOOTER ============================= -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <p class="footer__copyright">&copy; 2024 d_Striver. All Rights Reserved.</p>
+
+                <div class="footer__social-links">
+                    <a href="" class="footer__social-links">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="" class="footer__social-links">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="" class="footer__social-links">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="" class="footer__social-links">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                </div>
+            </div>
+        </footer>  
+        
+        <script src="dscript.js"></script>
+
+</main>
+</body>
+
+</html>
